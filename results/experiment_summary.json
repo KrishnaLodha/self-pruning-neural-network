@@ -1,0 +1,26 @@
+[
+  {
+    "lambda": 0.0001,
+    "test_accuracy": 58.34,
+    "sparsity_pct": 95.36330586183618,
+    "total_pruned": 1627371,
+    "total_weights": 1706496,
+    "epochs": 15
+  },
+  {
+    "lambda": 0.001,
+    "test_accuracy": 56.85,
+    "sparsity_pct": 99.52663235073507,
+    "total_pruned": 1698418,
+    "total_weights": 1706496,
+    "epochs": 15
+  },
+  {
+    "lambda": 0.005,
+    "test_accuracy": 56.7,
+    "sparsity_pct": 99.95804267926793,
+    "total_pruned": 1705780,
+    "total_weights": 1706496,
+    "epochs": 15
+  }
+]
