@@ -112,9 +112,3 @@ Everything runs from a single file. It trains 3 models (one per λ value), gener
 ├── results/         # Generated plots, checkpoints, and tables
 └── data/            # CIFAR-10 (auto-downloaded on first run)
 ```
-
----
-
-## Key Takeaway
-
-Neural networks carry a lot of dead weight. This project proves that you can remove 60-80% of a network's connections and still retain nearly all of its performance. The network itself decides what to keep and what to throw away.
